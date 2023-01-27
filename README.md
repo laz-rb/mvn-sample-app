@@ -1,6 +1,6 @@
 # mvn-sample-app
 
-This is a maven sample application.
+This is a maven sample application. Exposes default actuator endpoints plus `/` to send a string response and log `APP_USER` env variable and `/error` to throw an exception.
 
 ## Run
 

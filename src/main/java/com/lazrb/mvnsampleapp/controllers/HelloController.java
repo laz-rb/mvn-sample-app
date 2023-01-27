@@ -18,4 +18,9 @@ public class HelloController {
         log.info("Hi {}", userName);
         return "Hello world from Spring Boot";
     }
+
+    @GetMapping("/error")
+    public String error() throws Exception {
+        throw new Exception("Something bad happened!");
+    }
 }

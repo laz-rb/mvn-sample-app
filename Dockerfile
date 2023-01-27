@@ -8,7 +8,7 @@ RUN apk update
 # Install packages
 RUN apk add shadow bash
 
-# Create Unix user app
+# Create Unix user "app"
 RUN useradd -m app
 
 WORKDIR /home/app
